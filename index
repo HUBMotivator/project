@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Coiny|Josefin Sans|Montserrat|Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Jury Gregorio - Welcome</title>
+</head>
+<body>
+    <div class="body">
+        <div class="firstlayout">
+        <header>
+            <div class="menu-toggle" id="hamburger">
+                    <i class="fas fa-bars"></i>
+            </div>
+            <div class="overlay"></div>
+            <nav>
+                <img src="img/logo2.png" alt="Logo" class="logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <div class="menu">
+                    <a href="#" class="btn">Contact</a>
+                    <a href="#" class="btn btninfo">Info</a>
+                </div>
+            </nav>
+        </header>
+        <div class="content">
+                <h1 class="possible">Everything is Possible</h1>
+                <h2 class="possible2">"as long as you put your mind to it and put the work and time into it"</h2>
+                <a href="#about"><img class="arrow" src="img/arrow.svg" alt="Down arrow"></a>
+            </div>
+        </div>
+    </div>
+    <div id="about" class="about">
+        <h1 class="jury"><span>Hi!</span>, I'm Jury Gregorio</h1>
+        <hr class="hr">
+        <h2 class="pro">PROFESSIONAL <span> DESIGNER </span> &amp; <span>DEVELOPER </span> </h2>
+        <p class="build">Let's Build Different and Something Awesome</p>
+        <div class="form">
+            <form>
+                <input type="text" name="name" placeholder="Full Name"><br>
+                <input type="text" name="email" placeholder="Email"> <br>
+                <textarea placeholder="Your Message"></textarea><br>
+                <input type="submit" value="Send Request">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
